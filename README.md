@@ -17,7 +17,7 @@ Install GEM 5 (sign in, and click `tgz` to download)
 https://gem5.googlesource.com/public/gem5/+/525ce650e1a5bbe71c39d4b15598d6c003cc9f9e
 ```
 Move the downloaded file to HOME
-![alt text](image.png)
+![alt text](https://github.com/Charlie-Ash/NCU_gem5_-_nvmain_project/tree/main/Others/image.png)
 Compile GEM 5, cd into the downloaded (and extracted) GEM 5 file.
 ```
 scons build/X86/gem5.opt -j 4  // This took a while to compile
@@ -42,7 +42,7 @@ for arg in sys.argv:
     if arg[:9] == "--nvmain-":
         parser.add_option(arg, type="string", default="NULL", help="Set NVMain configuration value for a parameter")
 ```
-![alt text](image-1.png)
+![alt text](https://github.com/Charlie-Ash/NCU_gem5_-_nvmain_project/tree/main/Others/image-1.png)
 
 Recover Sconscript
 * Restore the previous instructions annotated by nvmain sconscript
