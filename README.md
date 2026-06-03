@@ -1,12 +1,12 @@
-This is the (hopefully detailed enough) tutorial to the final project to NCU CSIE's Computer Organization final project.
+ This is the (hopefully detailed enough) tutorial to the final project to NCU CSIE's Computer Organization final project.
 
 ## Q1 GEM5 + NVMAIN BUILD-UP
 ---
 (basically just follow the tutorial)
 * Ubuntu 18.04 
 *  Others settings 
-    *  Memory space:4GB
-    * Disk space :20GB
+    *  Memory space: 4GB
+    * Disk space : 20GB
 
 Install build tools 
 ```
