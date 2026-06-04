@@ -1,4 +1,4 @@
- This is the (hopefully detailed enough) tutorial to the final project to NCU CSIE's Computer Organization final project.
+This is the (hopefully detailed enough) tutorial to the final project to NCU CSIE's Computer Organization final project.
 
 ## Q1 GEM5 + NVMAIN BUILD-UP
 ---
@@ -288,6 +288,7 @@ This (is probably) because of quick sort tend to go through
 - Scanning partitions
 - Temporary locality
 - Shifting working sets
+
 This indicates that data are used more recently, and less likely frequently. This is why policies such as LFU doesn't reward as much, and creates more cache replacements than LRU in this case.
 
 ## Q5 Test the performance of write back and write through policy based on 4-way associative cache with isscc_pcm
